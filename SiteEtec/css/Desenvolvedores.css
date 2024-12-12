@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #2a095f;
+    min-height: 100vh; /* Garante que a cor de fundo cubra toda a altura da tela */
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 20px auto;
+    width: 80%;
+    flex-grow: 1;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 100px;
+}
+
+.card-text {
+    color: #023047;
+    text-align: center;
+}
+
+.about-school {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: auto;
+}
+
